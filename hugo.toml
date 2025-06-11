@@ -1,4 +1,3 @@
-
 baseURL = 'https://lxz-bjut.github.io/'
 title = '李博的学术主页'
 
@@ -18,8 +17,8 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
     [languages.zh.params]
       author = "李博"
-      description = "土木工程博士生，研究桥墩冲刷、OpenFOAM、风浪流-泥沙耦合"
-      motto = "用数值模拟揭示真实世界中的冲刷机制"
+      description = "土木工程博士生，研究桥墩冲刷与 OpenFOAM 多相耦合建模"
+      motto = "以科学之眼解析水沙之道"
 
     [[languages.zh.menu.main]]
       name = '关于我'
@@ -30,39 +29,6 @@ disableKinds = ["taxonomy", "term", "RSS"]
       url = '#publications'
       weight = 2
     [[languages.zh.menu.main]]
-      name = '科研项目'
-      url = '#projects'
-      weight = 3
-    [[languages.zh.menu.main]]
-      name = '受邀报告'
-      url = '#invited-talks'
-      weight = 4
-    [[languages.zh.menu.main]]
       name = '简历'
       url = '#cv'
-      weight = 5
-
-[params]
-  profilePicture = "images/profile.png"
-  enableDarkMode = true
-
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/lxz-bjut"
-    icon = "fab fa-github"
-  [[params.social]]
-    name = "google-scholar"
-    url = "https://scholar.google.com/"
-    icon = "fas fa-graduation-cap"
-  [[params.social]]
-    name = "email"
-    url = "mailto:libo@xxx.edu.cn"
-    icon = "fas fa-envelope"
-
-[build]
-  writeStats = false
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+      weight = 3
